@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9jufjn))_o9ew$i8m+y@jp-%jd6g@&yv@#1gs-xzhlg(99v=nf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS=['https://c8e1-139-167-50-98.ngrok-free.app/']
+#CSRF_TRUSTED_ORIGINS=['https://c8e1-139-167-50-98.ngrok-free.app/']
 
 ALLOWED_HOSTS = ['*','c8e1-139-167-50-98.ngrok-free.app','localhost','127.0.0.1']
 
@@ -84,9 +84,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'teerdha20',
         'PORT':'3306',
-        'PASSWORD':'admin12345',
-        'HOST':'my-rds-instance.cjo2ke4q2za3.us-east-1.rds.amazonaws.com',
-        'USER':'admin'
+        'PASSWORD':'admin09345',
+        'HOST':'teerdhadb.cjo2ke4q2za3.us-east-1.rds.amazonaws.com',
+        'USER':'murali'
     }
 }
 
